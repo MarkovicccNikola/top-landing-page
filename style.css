@@ -94,3 +94,32 @@ a {
     align-self: center;
     color: white;
 }
+
+
+/* Main Section starts */
+
+.main {
+    background-color: lightblue;
+}
+
+.main-container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center ;
+}
+
+.main-item {
+    width: 150px;
+    height: 150px;
+    border: 10px blue solid ;
+}
+
+.main-paragraph {
+    width: 150px;
+    text-align: center;
+}
+
+.main h1 {
+    text-align: center;
+}
