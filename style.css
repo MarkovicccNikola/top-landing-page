@@ -4,6 +4,9 @@ body {
     background-color: #EEE5E5;
     font-family: 'Poppins', sans-serif;
     margin: 0 20% 0 20%;
+
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .header {
@@ -84,7 +87,7 @@ body {
     border-radius: 20px;
     border-style: solid;
     border-color: #c9a227;
-    background-color: #c9a227;
+    background-color: #c9a722;
 }
 
 .hero-image img {
@@ -124,12 +127,17 @@ body {
     background-color: #c9a227;
 }
 
+.info-container h2 {
+    color: #c9a722;
+}
+
 /* Start of Quote section */
 
 .quote {
     display:flex;
     flex-direction: column;
     margin-top: 50px;
+    background-color:#EEE5E5;
 }
 
 #quoted {
@@ -140,5 +148,74 @@ body {
 }
 
 #quoted-by {
+    text-align: center;
+}
+
+/* Start of CTA section */
+
+.cta {
+    display: flex;
+    margin: 30px 70px 30px 70px ;
+    background-color: #c9a227;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#cta-text {
+    font-size: 30px;
+    color: white;
+}
+
+#cta-subtext {
+    font-size: 12px;
+    color: white;
+}
+
+.cta-button {
+    display: flex;
+    align-self: center;
+}
+
+.cta-button button {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 3px 6px 3px 6px;
+    margin-left: auto;
+}
+
+.cta-button button a {
+    font-family: 'Poppins', sans-serif;
+    color: #4C4F40;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Start of Footer section */
+
+.footer {
+    background-color: #c9a227;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+#footer-text {
+    margin: 0;
     text-align: center;
 }
